@@ -68,6 +68,16 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/extra"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser2 style={{ marginBottom: "2px" }} /> Extras
+              </Nav.Link>
+            </Nav.Item> */}
+
 
             <Nav.Item>
               <Nav.Link
@@ -94,17 +104,17 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://ieeexplore.ieee.org/document/10212330"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Research Paper
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://www.linkedin.com/in/sharmaanuj10"
                 target="_blank"
                 className="fork-btn-inner"
               >
@@ -120,3 +130,4 @@ function NavBar() {
 }
 
 export default NavBar;
+

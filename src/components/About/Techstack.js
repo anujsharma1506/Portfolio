@@ -8,7 +8,8 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiMysql
+  DiMysql,
+  DiExcel
   
 } from "react-icons/di";
 import {
