@@ -28,7 +28,7 @@ function Projects() {
               title="Stroke_Prediction_Model"
               description="A predictive machine learning model designed to estimate an individual's likelihood of experiencing a stroke based on their health and demographic data."
               ghLink="https://github.com/anujsharma1506/Stroke_Prediction_Model"
-               demoLink="https://chatify-49.web.app/"
+              //  demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -39,7 +39,7 @@ function Projects() {
               title="Stroke_Prediction_Model"
               description="A predictive machine learning model designed to estimate an individual's likelihood of experiencing a stroke based on their health and demographic data."
               ghLink="https://github.com/anujsharma1506/Stroke_Prediction_Model"
-               demoLink="https://chatify-49.web.app/"
+              //  demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
