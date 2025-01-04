@@ -45,6 +45,24 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftexcel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSlack />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSnowflake />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+      </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col> */}
@@ -69,9 +87,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedis />
       </Col> */}
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
+      
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col> */}
@@ -81,28 +97,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTableau />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
-      </Col>
+      
+      
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiAzuredevops />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSnowflake />
-      </Col>
+      
       
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
-      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
       </Col>

@@ -36,9 +36,39 @@ function Projects() {
           <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Stroke_Prediction_Model"
+              title="Customer-Retention-and-Churn-in-the-Airline-Industry"
+description="This project predicts customer churn in the airline industry using machine learning models like Random Forest and Gradient Boosting. By analyzing key factors such as travel type and loyalty points, it provides actionable insights to help airlines improve retention strategies and enhance customer satisfaction."
+              ghLink="https://github.com/anujsharma1506/Customer-Retention-and-Churn-in-the-Airline-Industry"
+              //  demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="People-Analytics-Understanding-Employee-Performance-and-Retention"
+              description="This project uses people analytics to analyze employee performance, retention, and demographics, providing actionable insights to enhance workforce satisfaction, retention strategies, and organizational decision-making."
+              ghLink="https://github.com/anujsharma1506/People-Analytics-Understanding-Employee-Performance-and-Retention"
+              //  demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Fraud-Detection-and-Prevention-in-Credit-Card-Transactions"
               description="A predictive machine learning model designed to estimate an individual's likelihood of experiencing a stroke based on their health and demographic data."
-              ghLink="https://github.com/anujsharma1506/Stroke_Prediction_Model"
+              ghLink="https://github.com/anujsharma1506/Fraud-Detection-and-Prevention-in-Credit-Card-Transactions"
+              //  demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+          <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Traffic-Violation-Analysis-on-Montgomery-County"
+              description="A predictive machine learning model designed to estimate an individual's likelihood of experiencing a stroke based on their health and demographic data."
+              ghLink="https://github.com/anujsharma1506/-Traffic-Violation-Analysis-on-Montgomery-County"
               //  demoLink="https://chatify-49.web.app/"
             />
           </Col>
