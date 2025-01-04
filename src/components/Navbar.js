@@ -35,6 +35,9 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
+      // variant="light"
+      // bg="light" 
+      // style={{ backgroundColor: "white" }}
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
