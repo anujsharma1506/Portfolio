@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiTableau } from "react-icons/si";
 
 function Home2() {
   return (
@@ -83,6 +84,16 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://public.tableau.com/app/profile/anuj.sharma3686/vizzes"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiTableau />
                 </a>
               </li>
               {/* <li className="social-icons">

@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa"; // Import FaLinkedinIn icon
+import { SiTableau } from "react-icons/si"; // Import SiTableau icon for Tableau
 
 function Footer() {
   let date = new Date();
@@ -13,9 +10,7 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-         
-        </Col>
+        <Col md="4" className="footer-copywright"></Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} </h3>
         </Col>
@@ -25,42 +20,32 @@ function Footer() {
               <a
                 href="https://github.com/anujsharma1506"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li> */}
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/sharmaanuj10"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
               </a>
             </li>
-            {/* <li className="social-icons">
+            <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://public.tableau.com/app/profile/anujsharma"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <SiTableau /> {/* SiTableau icon added here */}
               </a>
-            </li> */}
+            </li>
           </ul>
         </Col>
       </Row>
