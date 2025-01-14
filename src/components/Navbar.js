@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineDownload,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -35,9 +36,6 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      // variant="light"
-      // bg="light" 
-      // style={{ backgroundColor: "white" }}
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
@@ -71,16 +69,6 @@ function NavBar() {
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/extra"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser2 style={{ marginBottom: "2px" }} /> Extras
-              </Nav.Link>
-            </Nav.Item> */}
-
 
             <Nav.Item>
               <Nav.Link
@@ -95,13 +83,14 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            {/* Resume Button with Download Icon */}
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/resume"
+                href="/Anuj_Sharma_Resume.pdf" // Path to resume in the public folder
+                download="Anuj_Sharma_Resume.pdf"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <AiOutlineDownload style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
