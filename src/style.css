@@ -60,6 +60,7 @@ button:focus {
   background: #2d1950;
 }
 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgba(178, 121, 216, 0.959);

@@ -14,6 +14,7 @@ import {
   AiOutlineUser,
   AiOutlineDownload,
 } from "react-icons/ai";
+import { FaStar } from "react-icons/fa"; // Import FaStar for Certifications
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -91,6 +92,17 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineDownload style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* Certifications Button with FaStar Icon */}
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certs" // Linking to Projects for now
+                onClick={() => updateExpanded(false)}
+              >
+                <FaStar style={{ marginBottom: "2px" }} /> Certifications
               </Nav.Link>
             </Nav.Item>
 
