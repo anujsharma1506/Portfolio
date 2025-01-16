@@ -27,7 +27,7 @@ function Certifications() {
           <Card className="project-card-view" style={{ textAlign: "center", cursor: "pointer", minHeight: "300px", maxHeight: "300px", margin: "0 auto" }} onClick={() => window.open("https://www.credly.com/badges/4ec0a724-b14b-4c56-8da9-f527253f234c", "_blank")}>
             <Card.Img variant="top" src="/tableau.png" alt="Tableau Logo" style={{ width: "120px", height: "120px", margin: "auto", marginTop: "20px" }} />
             <Card.Body style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "center" }}>
-              <Card.Title>Tableau Certified</Card.Title>
+              <Card.Title>Tableau Certified Desktop Specialist</Card.Title>
             </Card.Body>
             <WorkspacePremium style={{ fontSize: "50px", marginTop: "20px", cursor: "pointer", position: "absolute", bottom: "10px", left: "50%", transform: "translateX(-50%)" }} onClick={() => window.open("https://www.credly.com/badges/4ec0a724-b14b-4c56-8da9-f527253f234c", "_blank")} />
           </Card>
